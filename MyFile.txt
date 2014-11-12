@@ -3,4 +3,10 @@ git status
 git add <file|directory> => from modified to staged
 git diff => modified != staged
 git diff --cached => last commit != next commit
+git commit
 git commit -m <message>
+git commit -a => skips staging
+git rm <file/directory>
+git rm -f <file/directory> => forces removing staged files
+git rm --cached <file/directory> => keeps in the dir
+git mv <from> <to>
