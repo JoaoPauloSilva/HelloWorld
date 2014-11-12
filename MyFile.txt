@@ -1,0 +1,6 @@
+git clone <url>
+git status
+git add <file|directory> => from modified to staged
+git diff => modified != staged
+git diff --cached => last commit != next commit
+git commit -m <message>
