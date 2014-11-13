@@ -21,3 +21,7 @@ git log --since|--after
 git log --until|--before
 git log --author
 git log --commiter
+
+git commit --amend => amends last commit
+git add . => unstage files
+git checkout -- <file> => unmodifies file
