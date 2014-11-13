@@ -10,3 +10,14 @@ git rm <file/directory>
 git rm -f <file/directory> => forces removing staged files
 git rm --cached <file/directory> => keeps in the dir
 git mv <from> <to>
+
+git log
+git log -p => diff commits
+git log --stat => statics commits
+git log --pretty => formats
+git log --graph => branches
+git log -<n> => last n commits
+git log --since|--after
+git log --until|--before
+git log --author
+git log --commiter
