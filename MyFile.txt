@@ -25,3 +25,12 @@ git log --commiter
 git commit --amend => amends last commit
 git add . => unstage files
 git checkout -- <file> => unmodifies file
+
+git remote => shows remote repository
+git remote -v => shows repository URL
+git remote add <shortname> <url>
+git fetch <remote> => pulls down repository data
+git push <remote> <branch> => pushes data to branch at remote
+git remote show <remote> => information about remote
+git remote rename <oldname> <newname> => renames remote
+git remote rm <remote> => remove reference to remote
